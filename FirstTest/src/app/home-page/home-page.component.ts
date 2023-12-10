@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home-page',
@@ -7,6 +7,14 @@ import { Component } from '@angular/core';
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.css'
 })
-export class HomePageComponent {
+export class HomePageComponent implements OnInit {
+  displayName: string;
+  constructor() {
+    this.displayName = "diplay by text";
+  }
+  ngOnInit(): void {
+
+  }
+
 
 }
