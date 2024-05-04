@@ -9,12 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
   displayName: string;
+  displayList:string[]=['fsdfs','sdfhsgfh','teyrtyetr','dhfghdgfh'];
   constructor() {
     this.displayName = "diplay by text";
   }
+
+
   ngOnInit(): void {
 
   }
+
+
+
 
 
 }
